@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # distribuidos
 
 > A Vue.js project
@@ -19,3 +20,6 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# distribuidos
+>>>>>>> ccb2bb9572706398b2626e7ae806ec95e34bd86e
