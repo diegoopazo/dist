@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # distribuidos
 
 > A Vue.js project
@@ -23,3 +24,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 =======
 # distribuidos
 >>>>>>> ccb2bb9572706398b2626e7ae806ec95e34bd86e
+=======
+# dist
+tienda virtual
+>>>>>>> 31d573b0c623b3230e7401e54bafc5a527e566c9
