@@ -12,4 +12,7 @@ module.exports = function (app) {
     app.route('users/:userId')
         .get(userList.read_a_user);
 
+    app.route('/sendUser')
+    	.post(userList.create_a_user);
+
 };
