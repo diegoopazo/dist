@@ -4,6 +4,8 @@ var express = require('express'),
     mongoose = require('mongoose'),
     User = require('./models/userListModel'),
     bodyParser = require('body-parser');
+var cors = require('cors')
+app.use(cors())
 
 mongoose.Promise = global.Promise;
 //userdb not users

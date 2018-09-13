@@ -2,7 +2,7 @@
   "name": "distribuidos",
   "version": "1.0.0",
   "description": "A Vue.js project",
-  "main": "server.js",
+  "main": ".postcssrc.js",
   "author": "diegoopazo <diego.opazo@usach.cl>",
   "private": true,
   "scripts": {
@@ -11,6 +11,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "mongoose": "^5.2.7",
     "vue": "^2.5.2",
@@ -63,7 +64,6 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": ".postcssrc.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/diegoopazo/distribuidos.git"

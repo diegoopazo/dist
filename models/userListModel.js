@@ -4,18 +4,18 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
-    first_name: {
+    product_name: {
         type: String,
-        Required: 'Please enter'
+        default: "Desodorante"
     },
-    last_name: {
+    description: {
         type: String,
-        Required: 'Please enter'
+        default:"Producto para que no apeste el ala"
     },
     //missed left last_name
-        email: {
+        price: {
         type: String,
-        Required: 'Please enter'
+        default: "$5.990"
     },
     Created_date:{
         type: Date,
